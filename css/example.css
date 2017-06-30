@@ -1,0 +1,85 @@
+body {
+	background-color: #FFFFFF;
+}
+
+/*内容*/
+.example {
+	width: 100%;
+	padding: 30px 15px;
+}
+
+.bg_f0 {
+	background-color: #f0f0f0;
+}
+
+.example .example_title {
+	text-align: center;
+}
+
+.example .example_title h4 {
+	font-size: 30px;
+	line-height: 45px;
+}
+
+.example .example_title h4 span {
+	border-bottom: 3px solid #FF9C00;
+}
+
+.example .example_con .example_con_img {
+	padding: 50px;
+}
+
+.example .example_con .example_con_img img {
+	width: 100%;
+}
+
+.example .example_con .example_con_mess {
+	margin-top: 115px;
+}
+
+.example .example_con .example_con_mess p {
+	font-size: 14px;
+	color: #000000;
+	text-indent: 2em;
+	line-height: 25px;
+}
+
+.example .example_con .example_con_mess span {
+	font-size: 14px;
+	color: #000000;
+	display: block;
+	text-indent: 4em;
+	line-height: 30px;
+}
+
+.example .example_con .example_con_mess span em {
+	color: #FF9C00;
+	font-size: 22px;
+	font-style: normal;
+	font-weight: bold;
+}
+
+
+/*适配*/
+
+@media only screen and (max-width: 992px) {
+	.example {
+		padding: 20px 0px;
+	}
+	.example .example_title h4 {
+		font-size: 20px;
+		line-height: 20px;
+	}
+	.example .example_con .example_con_img {
+		padding: 25px;
+	}
+	.example .example_con .example_con_img img {
+		width:100%;
+	}
+	.example .example_con .example_con_mess {
+		margin: 15px 0;
+	}
+	.example .example_con .example_con_mess span em {
+		font-size: 18px;
+	}
+}

@@ -1,0 +1,30 @@
+body{
+	background-color: #FFFFFF;
+}
+/*关于我们内容中心*/
+
+.about_c {
+	width: 100%;
+	background-color: #FFFFFF;
+	margin: 3% auto;
+	color: #000000;
+}
+
+.about_c h4 {
+	line-height: 50px;
+	font-size: 22px;
+	color: #FF9C00;
+	font-weight: bold;
+}
+
+.about_c p {
+	line-height: 30px;
+	font-size: 16px;
+	text-indent: 2em;
+}
+
+.about_c span {
+	line-height: 30px;
+	font-size: 18px;
+	color: #FF9C00;
+}

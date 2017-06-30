@@ -14,7 +14,7 @@
 		<link rel="stylesheet" href="./css/index.css">
 	</head>
 
-	<body>
+	<body oncontextmenu=self.event.returnValue=false>
 		<!--导航-->
 		<nav class="nav-content">
 			<div class="container">
@@ -25,10 +25,18 @@
 					<ul>
 						<li class="col-lg-2 col-md-2"><a>首页</a></li>
 						<li class="col-lg-2 col-md-2"><a>仓储服务</a></li>
-						<li class="col-lg-2 col-md-2"><a>仓储示例</a></li>
-						<li class="col-lg-2 col-md-2"><a>连锁分店</a></li>
+						<li class="col-lg-2 col-md-2 example_pc_btn">
+							<a href="./html/example.html">仓储示例</a>
+							<ul class="example_pc">
+								<li><a href="./html/example.html?ccsl=0">个人物品</a></li>
+								<li><a href="./html/example.html?ccsl=1">公司文件</a></li>
+								<li><a href="./html/example.html?ccsl=2">商铺货物</a></li>
+								<li><a href="./html/example.html?ccsl=3">家具杂物</a></li>
+							</ul>
+						</li>
+						<li class="col-lg-2 col-md-2 jumppc_self_lsfd"><a>连锁分店</a></li>
 						<li class="col-lg-2 col-md-2"><a>最新资讯</a></li>
-						<li class="col-lg-2 col-md-2"><a>关于我们</a></li>
+						<li class="col-lg-2 col-md-2"><a href="./html/about.html">关于我们</a></li>
 					</ul>
 				</div>
 				<div class="nav_iphone col-lg-3 col-md-3  hidden-sm hidden-xs">
@@ -45,10 +53,18 @@
 			<ul>
 				<li><a>首页</a></li>
 				<li><a>仓储服务</a></li>
-				<li><a>仓储示例</a></li>
-				<li><a>连锁分店</a></li>
+				<li class="exanple_m_btn">
+					<a>仓储示例</a>
+					<ul class="example_m">
+						<li><a href="./html/example.html?ccsl=0">个人物品</a></li>
+						<li><a href="./html/example.html?ccsl=1">公司文件</a></li>
+						<li><a href="./html/example.html?ccsl=2">商铺货物</a></li>
+						<li><a href="./html/example.html?ccsl=3">家具杂物</a></li>
+					</ul>
+				</li>
+				<li class="jumpmobile_self_lsfd"><a>连锁分店</a></li>
 				<li><a>最新资讯</a></li>
-				<li><a>关于我们</a></li>
+				<li><a href="./html/about.html">关于我们</a></li>
 			</ul>
 		</div>
 		<!--占位-->
@@ -69,35 +85,20 @@
 					<a class="xd_m_img hidden-lg hidden-md" href="#">
 						<img src="./img/index_banner1_small.jpg" alt="" />
 					</a>
-					<div class="banner_con hidden-sm hidden-xs">
-						<h3>懒人仓</h3>
-						<span>LAN&nbsp;REN&nbsp;CANG</span>
-						<p>北京懒人仓仓储服务有限公司，公司总部位于中国的首都——北京。懒人仓是北京懒人仓仓储服务有限公司所属注册商标，懒人仓引进国外先进迷你仓管理了经验及经营模式，立志打造成北京乃至全国最便捷的仓储。懒人仓通过智能化安防设施，24小时动态中央监控系统、完善的环境干预设备等硬件及优质的客户服务为个人、家庭、企业用户提供灵活、便捷、完善的储物解决方案。</p>
-					</div>
 				</div>
 				<!--第二张图片-->
 				<div class="item">
-					<a class="xd_pc_img hidden-xs hidden-sm" href="#" style="background-image: url('./img/index_banner1.jpg')"></a>
+					<a class="xd_pc_img hidden-xs hidden-sm" href="#" style="background-image: url('./img/index_banner2.jpg')"></a>
 					<a class="xd_m_img hidden-lg hidden-md" href="#">
-						<img src="./img/index_banner1_small.jpg" alt="" />
+						<img src="./img/index_banner2_small.jpg" alt="" />
 					</a>
-					<div class="banner_con hidden-sm hidden-xs">
-						<h3>懒人仓</h3>
-						<span>LAN&nbsp;REN&nbsp;CANG</span>
-						<p>北京懒人仓仓储服务有限公司，公司总部位于中国的首都——北京。懒人仓是北京懒人仓仓储服务有限公司所属注册商标，懒人仓引进国外先进迷你仓管理了经验及经营模式，立志打造成北京乃至全国最便捷的仓储。懒人仓通过智能化安防设施，24小时动态中央监控系统、完善的环境干预设备等硬件及优质的客户服务为个人、家庭、企业用户提供灵活、便捷、完善的储物解决方案。</p>
-					</div>
 				</div>
 				<!--第三张图片-->
 				<div class="item">
-					<a class="xd_pc_img hidden-xs hidden-sm" href="#" style="background-image: url('./img/index_banner1.jpg')"></a>
+					<a class="xd_pc_img hidden-xs hidden-sm" href="#" style="background-image: url('./img/index_banner3.jpg')"></a>
 					<a class="xd_m_img hidden-lg hidden-md" href="#">
-						<img src="./img/index_banner1_small.jpg" alt="" />
+						<img src="./img/index_banner3_small.jpg" alt="" />
 					</a>
-					<div class="banner_con hidden-sm hidden-xs">
-						<h3>懒人仓</h3>
-						<span>LAN&nbsp;REN&nbsp;CANG</span>
-						<p>北京懒人仓仓储服务有限公司，公司总部位于中国的首都——北京。懒人仓是北京懒人仓仓储服务有限公司所属注册商标，懒人仓引进国外先进迷你仓管理了经验及经营模式，立志打造成北京乃至全国最便捷的仓储。懒人仓通过智能化安防设施，24小时动态中央监控系统、完善的环境干预设备等硬件及优质的客户服务为个人、家庭、企业用户提供灵活、便捷、完善的储物解决方案。</p>
-					</div>
 				</div>
 			</div>
 			<!-- 控制左右箭头 -->
@@ -287,17 +288,31 @@
 					<p>LIAN&nbsp;SUO&nbsp;FEN&nbsp;DIAN</p>
 				</div>
 				<div>
-					<div class="cang_dian_tabtitle col-lg-4 col-md-4 col-sm-12 col-xs-12">
-						<ul>
-							<li class="col-lg-12 col-md-12 col-sm-3 col-xs-3 active"><span>十里河店</span></li>
-							<li class="col-lg-12 col-md-12 col-sm-3 col-xs-3"><span>太阳宫店</span></li>
-							<li class="col-lg-12 col-md-12 col-sm-3 col-xs-3"><span>大悦城店</span></li>
-							<li class="col-lg-12 col-md-12 col-sm-3 col-xs-3"><span>张仪村店</span></li>
-						</ul>
+					<div class="branch-detail-list">
+						<div class="shop-filter mobile-hide">
+							<div class="city-filter">
+								<span>市：</span>
+								<ul class="tab-list city-list">
+									<li data-target="r-result-beijing" data-district="r-district-beijing">北京</li>
+								</ul>
+							</div>
+							<div class="district-filter">
+								<span>区：</span>
+								<ul class="district-list" id="r-district-beijing" style="display: inline;">
+									<li data-district-target="chaoyang" class="cur" data-initiaLng="116.447156" data-initiaLat="39.979679">朝阳</li>
+									<li data-district-target="xicheng" data-initiaLng="116.347654" data-initiaLat="39.898498">西城</li>
+									<li data-district-target="fengtai" data-initiaLng="116.235616" data-initiaLat="39.883191">丰台</li>
+								</ul>
+							</div>
+						</div>
+						<div class="result-list-wrap clearfix">
+							<!--百度地图容器-->
+							<div class="map-content" id="dituContent"></div>
+							<div class="result-list" id="r-result-beijing"></div>
+						</div>
+						<div style="font-size:12px;color: #F03; opacity: 0; padding:15px; text-align:center; width:100%;">由于工作人员会频繁外出，需人工服务敬请预约以免久等；且工作人员可能无法久候，亦请您尽量如约而至。</div>
 					</div>
-					<div class="cang_dian_tabcon col-lg-8 col-md-8 col-sm-12 col-xs-12">
-						<div id="map1"></div>
-					</div>
+
 				</div>
 			</div>
 		</div>
@@ -335,7 +350,17 @@
 	<script src="./lib/jquery.placeholder.js"></script>
 	<script src="./lib/bootstrap/js/bootstrap.min.js"></script>
 	<script src="./js/common.js"></script>
+	<script src="./js/store.js"></script>
 	<script src="./js/index.js"></script>
 	<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=uUSEyhDo9Rr6HRKqBnYyxsbR67Wumn7i"></script>
+	<script>
+		var _hmt = _hmt || [];
+		(function() {
+			var hm = document.createElement("script");
+			hm.src = "https://hm.baidu.com/hm.js?879a778137cedc09d9803e95a19e2914";
+			var s = document.getElementsByTagName("script")[0];
+			s.parentNode.insertBefore(hm, s);
+		})();
+	</script>
 
 </html>

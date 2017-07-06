@@ -2,10 +2,12 @@ body {
 	background-color: #FFFFFF;
 }
 
+
 /*内容*/
+
 .example {
 	width: 100%;
-	padding: 30px 15px;
+	padding: 45px 15px;
 }
 
 .bg_f0 {
@@ -31,6 +33,7 @@ body {
 
 .example .example_con .example_con_img img {
 	width: 100%;
+	border: 1px solid #CCCCCC;
 }
 
 .example .example_con .example_con_mess {
@@ -64,7 +67,7 @@ body {
 
 @media only screen and (max-width: 992px) {
 	.example {
-		padding: 20px 0px;
+		padding: 30px 0px;
 	}
 	.example .example_title h4 {
 		font-size: 20px;
@@ -74,7 +77,7 @@ body {
 		padding: 25px;
 	}
 	.example .example_con .example_con_img img {
-		width:100%;
+		width: 100%;
 	}
 	.example .example_con .example_con_mess {
 		margin: 15px 0;

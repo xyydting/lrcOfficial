@@ -6,15 +6,16 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1" />
 		<meta http-equiv="X-UA-Compatible" content="IE=9" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" ,user-scalable="no">
-		<meta name="keywords" content="关键字">
-		<meta name="description" content="描述">
-		<title>懒人仓</title>
+		<meta name="keywords" content="懒人仓,迷你仓,小仓库,自助仓,北京迷你仓,小仓库出租">
+		<meta name="description" content="五折优惠、免运费,仓型丰富 独立门锁,安全 防湿防潮 24小时自助存取.">
+		<title>仓</title>
 		<link rel="stylesheet" href="./lib/bootstrap/css/bootstrap.min.css">
 		<link rel="stylesheet" href="./css/common.css">
 		<link rel="stylesheet" href="./css/index.css">
+		<link rel="stylesheet" href="./css/example.css">
 	</head>
 
-	<body oncontextmenu=self.event.returnValue=false>
+	<body>
 		<!--导航-->
 		<nav class="nav-content">
 			<div class="container">
@@ -23,19 +24,10 @@
 				</div>
 				<div class="pc_nav col-lg-6 col-lg-offset-1 col-md-7  hidden-sm hidden-xs">
 					<ul>
-						<li class="col-lg-2 col-md-2"><a>首页</a></li>
-						<li class="col-lg-2 col-md-2"><a>仓储服务</a></li>
-						<li class="col-lg-2 col-md-2 example_pc_btn">
-							<a href="./html/example.html">仓储示例</a>
-							<ul class="example_pc">
-								<li><a href="./html/example.html?ccsl=0">个人物品</a></li>
-								<li><a href="./html/example.html?ccsl=1">公司文件</a></li>
-								<li><a href="./html/example.html?ccsl=2">商铺货物</a></li>
-								<li><a href="./html/example.html?ccsl=3">家具杂物</a></li>
-							</ul>
-						</li>
+						<li class="col-lg-2 col-lg-offset-2 col-md-2 col-md-offset-2"><a href="#">首页</a></li>
+						<li class="col-lg-2 col-md-2 example_pc_btn"><a>仓储服务</a></li>
 						<li class="col-lg-2 col-md-2 jumppc_self_lsfd"><a>连锁分店</a></li>
-						<li class="col-lg-2 col-md-2"><a>最新资讯</a></li>
+						<li class="col-lg-2 col-md-2"><a>资讯中心</a></li>
 						<li class="col-lg-2 col-md-2"><a href="./html/about.html">关于我们</a></li>
 					</ul>
 				</div>
@@ -51,19 +43,10 @@
 		<!--移动端的下拉菜单-->
 		<div class="m_nav_content hidden-lg hidden-md">
 			<ul>
-				<li><a>首页</a></li>
-				<li><a>仓储服务</a></li>
-				<li class="exanple_m_btn">
-					<a>仓储示例</a>
-					<ul class="example_m">
-						<li><a href="./html/example.html?ccsl=0">个人物品</a></li>
-						<li><a href="./html/example.html?ccsl=1">公司文件</a></li>
-						<li><a href="./html/example.html?ccsl=2">商铺货物</a></li>
-						<li><a href="./html/example.html?ccsl=3">家具杂物</a></li>
-					</ul>
-				</li>
+				<li><a href="#">首页</a></li>
+				<li class="exanple_m_btn"><a>仓储服务</a></li>
 				<li class="jumpmobile_self_lsfd"><a>连锁分店</a></li>
-				<li><a>最新资讯</a></li>
+				<li><a>资讯中心</a></li>
 				<li><a href="./html/about.html">关于我们</a></li>
 			</ul>
 		</div>
@@ -90,14 +73,14 @@
 				<div class="item">
 					<a class="xd_pc_img hidden-xs hidden-sm" href="#" style="background-image: url('./img/index_banner2.jpg')"></a>
 					<a class="xd_m_img hidden-lg hidden-md" href="#">
-						<img src="./img/index_banner2_small.jpg" alt="" />
+						<img class="lazy" data-src="./img/index_banner2_small.jpg" alt="" />
 					</a>
 				</div>
 				<!--第三张图片-->
 				<div class="item">
 					<a class="xd_pc_img hidden-xs hidden-sm" href="#" style="background-image: url('./img/index_banner3.jpg')"></a>
 					<a class="xd_m_img hidden-lg hidden-md" href="#">
-						<img src="./img/index_banner3_small.jpg" alt="" />
+						<img class="lazy" data-src="./img/index_banner3_small.jpg" alt="" />
 					</a>
 				</div>
 			</div>
@@ -135,45 +118,6 @@
 				</li>
 			</ul>
 		</div>
-		<!--办理流程-->
-		<div class="cang_liu">
-			<div class="container">
-				<div class="xd_ps_p">
-					<p>办理流程</p>
-					<p>BAN&nbsp;LI&nbsp;LIU&nbsp;CHENG</p>
-				</div>
-				<div class="cang_liu_pea col-lg-2 col-lg-offset-1 col-md-2 col-md-offset-1 col-sm-4 col-sm-offset-2 col-xs-4 col-xs-offset-2">
-					<img class="rotatoimg" src="./img/index_liu_icon1.jpg" />
-					<img src="./img/index_liu_hr.jpg" />
-					<img src="img/index_liu_title1.jpg" />
-					<p>电话、qq、微信等多种咨询方式，我们会根据您的需求选择最适合您的方案。</p>
-				</div>
-				<div class="cang_liu_pea col-lg-2 col-md-2 col-sm-4 col-xs-4">
-					<img class="rotatoimg" src="./img/index_liu_icon2.jpg" />
-					<img src="./img/index_liu_hr.jpg" />
-					<img src="img/index_liu_title2.jpg" />
-					<p>到店参观选定仓型或电话预定仓型皆可。</p>
-				</div>
-				<div class="cang_liu_pea col-lg-2 col-md-2 col-sm-4 col-xs-4">
-					<img class="rotatoimg" src="./img/index_liu_icon3.jpg" />
-					<img src="./img/index_liu_hr.jpg" />
-					<img src="img/index_liu_title3.jpg" />
-					<p>现场签订租赁合同，支付款项。</p>
-				</div>
-				<div class="cang_liu_pea col-lg-2 col-md-2 col-sm-4 col-xs-4">
-					<img class="rotatoimg" src="./img/index_liu_icon4.jpg" />
-					<img src="./img/index_liu_hr.jpg" />
-					<img src="img/index_liu_title4.jpg" />
-					<p>整理物品、搬运入仓。</p>
-				</div>
-				<div class="cang_liu_pea col-lg-2 col-md-2 col-sm-4 col-xs-4">
-					<img class="rotatoimg" src="./img/index_liu_icon5.jpg" />
-					<img src="./img/index_liu_hr.jpg" />
-					<img src="img/index_liu_title5.jpg" />
-					<p>线上线下多种付款方式供您选择。</p>
-				</div>
-			</div>
-		</div>
 		<!--仓型介绍-->
 		<div class="cang_introduce">
 			<div class="container">
@@ -181,36 +125,130 @@
 					<p>仓型介绍</p>
 					<p>CANG&nbsp;XING&nbsp;JIE&nbsp;SHAO</p>
 				</div>
-				<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+				<div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
 					<div class="cang_int_peason">
 						<h4>迷你仓</h4>
-						<img class="cang_introduce_img" src="./img/cang_int1.jpg" />
-						<h5>1m³</h5>
-						<p>比一台洗衣机略大点，可存放笔记本电脑，各种学历证件以及私人物品。也可存放游客背包及行李箱等物品。</p>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
-					<div class="cang_int_peason">
-						<h4>小型仓</h4>
 						<img class="cang_introduce_img" src="./img/cang_int2.jpg" />
-						<h5>5m³</h5>
-						<p>比普通客梯内部空间略大点，适用于存放换季衣物，家庭杂物，小孩玩具以及收藏品等。</p>
+						<h5>1m³~5m³</h5>
+						<p>大小介于洗衣机和客梯之间。可存放笔记本电脑，行李箱以及私人物品。也可存放换季衣物，家庭杂物，小孩玩具以及收藏品等。</p>
 					</div>
 				</div>
-				<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+				<div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
 					<div class="cang_int_peason">
-						<h4>中型仓</h4>
+						<h4>小仓库</h4>
 						<img class="cang_introduce_img" src="./img/cang_int3.jpg" />
-						<h5>10m³</h5>
-						<p>与搬家厢式货车大小相仿。适用于存放展会产品、家具电器、闲置物，公司存放凭证及档案。</p>
+						<h5>6m²~20m²</h5>
+						<p>与一台 1.5吨人货车车厢 大小相仿。 适用于长期存放各种货物、档案文件、展会用品，装修时临时寄存家具、电器等。</p>
 					</div>
 				</div>
-				<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+				<div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
 					<div class="cang_int_peason">
-						<h4>大型仓</h4>
+						<h4>大仓库</h4>
 						<img class="cang_introduce_img" src="./img/cang_int4.jpg" />
-						<h5>15m³</h5>
-						<p>与一间次卧大小相仿。可用于公司存放产品及样品，装修时存放家具及电器，电商仓库等物品。</p>
+						<h5>20m²~500m²</h5>
+						<p>岂止于大，按面积收费，适用于办公、淘宝电商。分店遍布各商圈。</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--仓储服务-->
+		<div class="cang_service">
+			<div class="cang_service_title">
+				<div class="container">
+					<ul>
+						<li class="cang_ser_titon col-lg-3 col-md-3 col-sm-3 col-xs-3"><a>个人物品</a></li>
+						<li class="col-lg-3 col-md-3 col-sm-3 col-xs-3"><a>公司文件</a></li>
+						<li class="col-lg-3 col-md-3 col-sm-3 col-xs-3"><a>企业办公</a></li>
+						<li class="col-lg-3 col-md-3 col-sm-3 col-xs-3"><a>家具杂物</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="cang_service_content">
+				<!--个人物品-->
+				<div class="example cang_service_conpea" name="jump_grwp">
+					<div class="container">
+						<div class="example_title col-lg-12 col-md-12 col-sm-12 col-xs-12">
+							<h4><span>个人物品</span></h4>
+						</div>
+						<div class="example_con col-lg-12 col-md-12 col-sm-12 col-xs-12">
+							<div class="example_con_img col-lg-8 col-md-8 col-sm-12 col-xs-12">
+								<img src="./img/example_1.jpg" />
+							</div>
+							<div class="example_con_mess col-lg-4 col-md-4 col-sm-12 col-xs-12">
+								<p>过年离开北京、临时出差、来京旅游，需要存放行李，但不知道哪里可以临时寄存？</p>
+								<p>有些物品因为岁月的沉淀而格外有味道，有收藏爱好的您，面对爱不释手的相册、画册等。需要恒温恒湿的环境存放，但不知道哪里有合适的库房。</p>
+								<p>谁能没有一点点自己的小秘密，安全又私密的仓库不知去哪找！</p>
+								<span> 没关系，一切都交给<em>懒人仓。</em></span>
+								<span>临时存放、安全、24小时无死角监控</span>
+								<span>详情请咨询：<em>400-064-0568</em></span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--公司文件-->
+				<div class="example cang_service_conpea" name="jump_gswj">
+					<div class="container">
+						<div class="example_title col-lg-12 col-md-12 col-sm-12 col-xs-12">
+							<h4><span>公司文件</span></h4>
+						</div>
+						<div class="example_con col-lg-12 col-md-12 col-sm-12 col-xs-12">
+							<div class="example_con_img hidden-lg hidden-md col-sm-12 col-xs-12">
+								<img data-src="./img/example_2.jpg" />
+							</div>
+							<div class="example_con_mess col-lg-4 col-md-4 col-sm-12 col-xs-12">
+								<p>公司存根文件越来越多，堆积如山，却不能销毁。想找个24小时自助存取、存放文件的小仓库。</p>
+								<p>每年北京都会举办各类型展会，企业参展后展会用品怎么办？扔了太浪费，但传统迷你仓收费又太高！想找个价格便宜，可以长租的小仓库。</p>
+								<span> 没关系，一切都交给<em>懒人仓。</em></span>
+								<span>临时存放、安全、24小时无死角监控</span>
+								<span>详情请咨询：<em>400-064-0568</em></span>
+							</div>
+							<div class="example_con_img col-lg-8 col-md-8 hidden-sm hidden-xs">
+								<img data-src="./img/example_2.jpg" />
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--企业办公-->
+				<div class="example cang_service_conpea" name="jump_sphw">
+					<div class="container">
+						<div class="example_title col-lg-12 col-md-12 col-sm-12 col-xs-12">
+							<h4><span>企业办公</span></h4>
+						</div>
+						<div class="example_con col-lg-12 col-md-12 col-sm-12 col-xs-12">
+							<div class="example_con_img col-lg-8 col-md-8 col-sm-12 col-xs-12">
+								<img data-src="./img/example_3.jpg" />
+							</div>
+							<div class="example_con_mess col-lg-4 col-md-4 col-sm-12 col-xs-12">
+								<p>办公不止只有SOHO，想找个干净、整洁、便利的办公场所</p>
+								<p>店铺在闹市区，想找个附近点、上下货方便的小仓库。</p>
+								<span> 没关系，一切都交给<em>懒人仓。</em></span>
+								<span>分店遍布各大商圈，电梯上下货、车库直通仓库</span>
+								<span>详情请咨询：<em>400-064-0568</em></span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--家具杂物-->
+				<div class="example cang_service_conpea" name="jump_jjzw">
+					<div class="container">
+						<div class="example_title col-lg-12 col-md-12 col-sm-12 col-xs-12">
+							<h4><span>家具杂物</span></h4>
+						</div>
+						<div class="example_con col-lg-12 col-md-12 col-sm-12 col-xs-12">
+							<div class="example_con_img hidden-lg hidden-md col-sm-12 col-xs-12">
+								<img data-src="./img/example_4.jpg" />
+							</div>
+							<div class="example_con_mess col-lg-4 col-md-4 col-sm-12 col-xs-12">
+								<p>家里装修，家具杂物想找个便利仓库存放。</p>
+								<p>房子出租，但是租客有自己家具家电。想找个便宜的库房长期存放。</p>
+								<span> 没关系，一切都交给<em>懒人仓。</em></span>
+								<span>临时存放、安全、24小时无死角监控</span>
+								<span>详情请咨询：<em>400-064-0568</em></span>
+							</div>
+							<div class="example_con_img col-lg-8 col-md-8 hidden-sm hidden-xs">
+								<img data-src="./img/example_4.jpg" />
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -251,32 +289,42 @@
 				</div>
 			</div>
 		</div>
-		<!--产品图册-->
-		<div class="">
-			<!--产品图册-->
-			<div class="index_bg">
+		<!--办理流程-->
+		<div class="cang_liu">
+			<div class="container">
 				<div class="xd_ps_p">
-					<p>产品图册</p>
-					<p>CHAN&nbsp;PIN&nbsp;TU&nbsp;CE</p>
+					<p>办理流程</p>
+					<p>BAN&nbsp;LI&nbsp;LIU&nbsp;CHENG</p>
 				</div>
-				<div>
-					<div class="container">
-						<div class="col-lg-4  col-md-4 col-sm-4 col-xs-4">
-							<div class="xd_ps_content">
-								<a><img class="xd_ps_icon1" src="./img/product_img1.jpg" alt="" /></a>
-							</div>
-						</div>
-						<div class="col-lg-4  col-md-4 col-sm-4 col-xs-4">
-							<div class="xd_ps_content">
-								<a><img class="xd_ps_icon1" src="./img/product_img2.jpg" alt="" /></a>
-							</div>
-						</div>
-						<div class="col-lg-4  col-md-4 col-sm-4 col-xs-4">
-							<div class="xd_ps_content">
-								<a><img class="xd_ps_icon1" src="./img/product_img3.jpg" alt="" /></a>
-							</div>
-						</div>
-					</div>
+				<div class="cang_liu_pea col-lg-2 col-lg-offset-1 col-md-2 col-md-offset-1 col-sm-4 col-sm-offset-2 col-xs-4 col-xs-offset-2">
+					<img class="rotatoimg" src="./img/index_liu_icon1.jpg" />
+					<img src="./img/index_liu_hr.jpg" />
+					<i></i><h5>仓型咨询</h5>
+					<p>电话、qq、微信等多种咨询方式，我们会根据您的需求选择最适合您的方案。</p>
+				</div>
+				<div class="cang_liu_pea col-lg-2 col-md-2 col-sm-4 col-xs-4">
+					<img class="rotatoimg" src="./img/index_liu_icon2.jpg" />
+					<img src="./img/index_liu_hr.jpg" />
+					<i></i><h5>仓型选择</h5>
+					<p>到店参观选定仓型或电话预定仓型皆可。</p>
+				</div>
+				<div class="cang_liu_pea col-lg-2 col-md-2 col-sm-4 col-xs-4">
+					<img class="rotatoimg" src="./img/index_liu_icon3.jpg" />
+					<img src="./img/index_liu_hr.jpg" />
+					<i></i><h5>签订合同</h5>
+					<p>现场签订租赁合同，支付款项。</p>
+				</div>
+				<div class="cang_liu_pea col-lg-2 col-md-2 col-sm-4 col-xs-4">
+					<img class="rotatoimg" src="./img/index_liu_icon4.jpg" />
+					<img src="./img/index_liu_hr.jpg" />
+					<i></i><h5>自助入仓</h5>
+					<p>整理物品、搬运入仓。</p>
+				</div>
+				<div class="cang_liu_pea col-lg-2 col-md-2 col-sm-4 col-xs-4">
+					<img class="rotatoimg" src="./img/index_liu_icon5.jpg" />
+					<img src="./img/index_liu_hr.jpg" />
+					<i></i><h5>到期续租</h5>
+					<p>线上线下多种付款方式供您选择。</p>
 				</div>
 			</div>
 		</div>
@@ -299,7 +347,7 @@
 							<div class="district-filter">
 								<span>区：</span>
 								<ul class="district-list" id="r-district-beijing" style="display: inline;">
-									<li data-district-target="chaoyang" class="cur" data-initiaLng="116.447156" data-initiaLat="39.979679">朝阳</li>
+									<li data-district-target="chaoyang" data-initiaLng="116.447156" data-initiaLat="39.979679">朝阳</li>
 									<li data-district-target="xicheng" data-initiaLng="116.347654" data-initiaLat="39.898498">西城</li>
 									<li data-district-target="fengtai" data-initiaLng="116.235616" data-initiaLat="39.883191">丰台</li>
 								</ul>
@@ -320,21 +368,16 @@
 		<footer class="xd_footer">
 			<div class="xd_footer_top col-lg-12 col-md-12 col-sm-12 col-xs-12">
 				<div class="container">
-					<div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
-						<div class="col-lg-6 col-md-6 col-sm-4 col-xs-4">
-							<img class="index_footer_logo" src="./img/index_footer_logo.jpg" />
-						</div>
-						<div class="col-lg-6 col-md-6 col-sm-8 col-xs-8">
-							<p>总部地址：<br>北京市朝阳区十八里店西大望南路周庄嘉园C区2号楼1层</p>
-						</div>
+					<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+						<img class="index_footer_logo" src="./img/index_footer_logo.jpg" />
 					</div>
-					<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-						<div class="col-lg-6 col-md-6 col-sm-4 col-xs-4">
-							<img class="index_footer_er" src="./img/index_footer_er.jpg" />
-						</div>
-						<div class="col-lg-6 col-md-6 col-sm-8 col-xs-8">
-							<p>联系电话：<br>4000-640-568</p>
-						</div>
+					<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+						<p>总部地址：北京市朝阳区十八里店西大望南路周庄嘉园C区2号楼1层</p>
+						<p>联系方式：400-064-0568</p>
+						<p>邮箱：lanrencang@qq.com</p>
+					</div>
+					<div class="bl_1 col-lg-3 col-md-3 col-sm-12 col-xs-12">
+						<img class="index_footer_er" src="./img/index_footer_er.jpg" />
 					</div>
 				</div>
 			</div>

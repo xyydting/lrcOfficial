@@ -642,6 +642,7 @@ body {
 	/*仓型介绍*/
 	.cang_introduce .cang_int_peason {
 		margin-top: 20px;
+		height: 460px;
 	}
 	.cang_introduce .cang_int_peason h4 {
 		font-size: 20px;

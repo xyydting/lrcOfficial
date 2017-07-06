@@ -529,13 +529,13 @@ body {
 	padding: 25px 0 25px 0;
 }
 
-.index_footer_logo,
 .index_footer_er {
 	margin-left: 26px;
 }
 
 .index_footer_logo {
-	width: 226px;
+	width: 100%;
+	margin-top: 40px;
 }
 
 .index_footer_er {
@@ -546,7 +546,11 @@ body {
 	color: #9D9D9D;
 	font-size: 16px;
 	line-height: 45px;
-	text-indent: 2em;
+	margin-bottom: 0px;
+}
+
+.pt {
+	padding-top: 30px;
 }
 
 .bl_1 {
@@ -612,8 +616,12 @@ body {
 		margin: 15px auto 0;
 		display: block;
 	}
+	.pt {
+		padding-top: 15px;
+	}
 	.xd_footer_top p {
 		line-height: 25px;
+		margin-bottom: 10px;
 	}
 	.xd_footer .col-lg-8,
 	.xd_footer .col-md-8 {

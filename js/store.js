@@ -48,6 +48,20 @@ var stores = {
 		"storeMetro": "双井-地铁站",
 		"storeCoordinateLng": 116.474651,
 		"storeCoordinateLat": 39.899552
+	}, {
+		"storeName": "亚运村店：<span style='color:red'>新店优惠</span>",
+		"storeAddress": "北京市朝阳区北苑路凯旋城E座B3",
+		"storeBusstop": "惠忠东路口（430路;464路;夜9路）",
+		"storeMetro": "大屯路东-地铁站",
+		"storeCoordinateLng": 116.425284,
+		"storeCoordinateLat": 40.003882
+	}, {
+		"storeName": "十里堡店：<span style='color:red'>新店优惠</span>",
+		"storeAddress": "北京市朝阳区十里堡东里116号楼B1",
+		"storeBusstop": "十里堡（95路;411路;433路;605路;615路;648路;690路;夜13路）",
+		"storeMetro": "十里堡-地铁站",
+		"storeCoordinateLng": 116.51023,
+		"storeCoordinateLat": 39.923461
 	}],
 	"xicheng": [{
 		"storeName": "广安门店：<span style='color:red'>新店优惠</span>",
